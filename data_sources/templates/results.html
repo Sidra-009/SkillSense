@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillSense – Detected Skill Profile</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back-btn">← Back</a>
+
+    <h1>Detected Skill Profile</h1>
+
+    <div class="profile-summary">
+      <p><strong>Name:</strong> {{ profile.name or "Not found" }}</p>
+      <p><strong>Email:</strong> {{ profile.email or "Not found" }}</p>
+      <p><strong>Phone:</strong> {{ profile.phone or "Not found" }}</p>
+    </div>
+
+    <h2>Top Skills</h2>
+
+    {% if profile.skills %}
+      <div class="skills-list">
+        {% for skill in profile.skills %}
+          <div class="skill-card">
+            <h3>{{ skill.skill.title() }}</h3>
+            <p>Confidence: <strong>{{ skill.confidence }}</strong></p>
+            {% if skill.evidence %}
+              <p><strong>Evidence:</strong></p>
+              <ul>
+                {% for e in skill.evidence %}
+                  <li>{{ e }}</li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <p><em>No evidence found</em></p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>No skills detected.</p>
+    {% endif %}
+  </div>
+</body>
+</html>

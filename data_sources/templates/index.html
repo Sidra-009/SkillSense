@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillSense – Upload CV</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>SkillSense</h1>
+    <p>Upload your CV or profile text file to discover your hidden skills!</p>
+
+    <form action="/analyze" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" required>
+      <button type="submit">Analyze Skills</button>
+    </form>
+  </div>
+</body>
+</html>
