@@ -14,4 +14,3 @@ sentence-transformers==2.2.2
 PyGithub==1.59.0
 python-linkedin==2.1.0
 transformers
-
