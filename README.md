@@ -1,48 +1,117 @@
-<<<<<<< HEAD
-# SkillSense – Unlock Your Hidden Potential
+# 🌟 SkillSense – Unlock Your Hidden Potential
 
-## 🎯 Project Overview
+### 🧠 Developed for the **Hack-Nation Global AI Hackathon 2025**
 
-SkillSense is an AI-powered application that revolutionizes how we discover and validate hidden skills by leveraging advanced NLP to build dynamic, multi-source skill profiles. It addresses the critical gap in traditional credential-based hiring by uncovering implicit skills acquired through projects, mentorship, and informal learning.
+SkillSense is an **AI-powered innovation** that transforms the way we **discover, analyze, and validate human potential**.  
+By leveraging advanced **Natural Language Processing (NLP)** and **semantic intelligence**, it uncovers hidden skills often missed by traditional resumes — bridging the gap between **what you’ve done** and **what you’re truly capable of**.
 
-## 🚀 Features
+---
 
-### Core Features
-- **Multi-Source Data Aggregation**: CVs, LinkedIn profiles, GitHub data, and manual input
-- **AI-Powered Skill Extraction**: Both explicit and implicit skill detection using spaCy and transformers
-- **Dynamic Skill Profiles**: Structured profiles with confidence scores and evidence trails
-- **Skill Gap Analysis**: Identify missing skills for target roles
-- **Job Matching**: Compare skills against job descriptions
-- **Privacy-First**: All data processed locally with no external sharing
+## 🚀 Project Overview
 
-### Advanced Capabilities
-- **Semantic Skill Matching**: Uses sentence transformers for context-aware skill detection
-- **Confidence Scoring**: Intelligent scoring based on context, frequency, and source reliability
-- **Skill Frameworks**: ESCO and O*NET framework integration
-- **Interactive Dashboard**: Comprehensive visualization of skill profiles
-- **Export Functionality**: JSON export for skill profiles
+In today's data-driven world, talent often goes unnoticed simply because it’s not explicitly stated.  
+**SkillSense** solves this problem by extracting skills from multiple data sources like resumes, LinkedIn profiles, and GitHub repositories, and creates a **living, intelligent skill profile** — highlighting strengths, gaps, and growth potential.
 
-## 🛠 Technology Stack
+> 🎯 *It’s not just about what you list on paper — it’s about what your data says about you.*
 
-- **Backend**: Python, Flask
-- **NLP**: spaCy, Transformers, Sentence-BERT
-- **File Processing**: pdfminer.six, python-docx
-- **Frontend**: HTML5, CSS3, JavaScript
-- **APIs**: LinkedIn API, GitHub API
-- **Data Storage**: Local JSON (privacy-focused)
+---
 
-## 📦 Installation
+## 💡 Key Features
 
-### Prerequisites
-- Python 3.8+
+### 🧩 Core Functionality
+- 🔗 **Multi-Source Data Aggregation** – CVs, LinkedIn profiles, GitHub data, and manual input  
+- 🤖 **AI-Powered Skill Extraction** – Finds explicit and implicit skills with `spaCy`, `Transformers`, and `Sentence-BERT`  
+- 📊 **Dynamic Skill Profiles** – Displays confidence-based, evidence-supported summaries  
+- 🧠 **Skill Gap Analysis** – Detects missing skills for career advancement  
+- 💼 **Job Matching** – Compares your skillset with job requirements in real time  
+- 🔒 **Privacy-First Design** – All data stays local for complete confidentiality  
+
+---
+
+### ⚙️ Advanced Intelligence
+- 🧬 **Semantic Skill Matching** – Understands context, not just keywords  
+- 📈 **Confidence Scoring Engine** – Evaluates reliability and frequency across sources  
+- 🌐 **Skill Framework Integration** – Supports **ESCO** and **O*NET** frameworks  
+- 🪄 **Interactive Dashboard** – Visualizes skill distribution, trends, and insights  
+- 📤 **Data Export Options** – Export detailed profiles as JSON or PDF  
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer | Technologies |
+|-------|---------------|
+| **Backend** | Python, Flask |
+| **AI / NLP** | spaCy, Transformers, Sentence-BERT |
+| **File Processing** | pdfminer.six, python-docx |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **APIs** | LinkedIn API, GitHub API |
+| **Storage** | Local JSON (Privacy-Centric) |
+
+---
+
+## ⚡ Installation Guide
+
+### 🔧 Prerequisites
+- Python **3.8+**
 - pip package manager
 
-### Setup Instructions
+### 🧭 Setup Instructions
+bash
+# 1️⃣ Clone the repository
+git clone https://github.com/Sidra-009/SkillSense.git
+cd SkillSense
 
-1. **Clone and navigate to the project**:
-```bash
-cd SKILLSENSE
-=======
-# SkillSense
-AI-powered multi-source skill analysis platform that uncovers hidden skills from resumes, LinkedIn, and GitHub profiles
->>>>>>> 0a985e586469bacfb6e5d6ee3b6e5fdd29040d2d
+# 2️⃣ Create a virtual environment
+python -m venv skillsense_env
+skillsense_env\Scripts\activate
+
+# 3️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 4️⃣ Run the Flask app
+python app.py
+Then open your browser and visit:
+👉 http://127.0.0.1:5000
+
+🎯 Use Cases
+SkillSense helps various users unlock their full potential:
+
+🧑‍💼 Job Seekers — Discover and highlight hidden strengths
+
+🧑‍💻 Developers — Analyze repositories to showcase technical depth
+
+🧠 Recruiters — Go beyond credentials to assess true capability
+
+🎓 Students — Identify learning gaps and future skill paths
+
+🏆 Hackathon Context
+Built for the Hack-Nation Global AI Hackathon 2025,
+SkillSense aligns with the challenge theme: “AI for Empowering Human Potential.
+
+This project represents the vision of AI-driven career intelligence, combining
+NLP, automation, and real-time analytics to make skill discovery more inclusive, intelligent, and insightful.
+
+👩‍💻 Contributor
+Sidra Bibi
+Data Science Student – Sir Syed University of Engineering & Technology (SSUET), Karachi
+
+💻 Developer | 🤖 NLP Enthusiast | 📊 Data-Driven Innovator
+📧 sidrasaqlain11@gmail.com
+
+📜 License
+Licensed under the MIT License — use, modify, and share freely.
+
+⭐ Acknowledgements
+🙌 Hack-Nation Team for organizing the Global AI Hackathon
+
+🤝 OpenAI, Hugging Face, and spaCy for providing state-of-the-art NLP tools
+
+💡 Mentors and contributors for guidance and inspiration
+
+🌈 Spread the Word
+If you like this project or find it inspiring:
+⭐ Star this repository — it helps others discover it and keeps the motivation alive!
+
+“Every skill has a story. SkillSense helps you tell it — intelligently.” ✨
+— Built with 💖, AI, and endless curiosity.
