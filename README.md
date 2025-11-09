@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SkillSense – Unlock Your Hidden Potential
 
 ## 🎯 Project Overview
@@ -41,3 +42,7 @@ SkillSense is an AI-powered application that revolutionizes how we discover and 
 1. **Clone and navigate to the project**:
 ```bash
 cd SKILLSENSE
+=======
+# SkillSense
+AI-powered multi-source skill analysis platform that uncovers hidden skills from resumes, LinkedIn, and GitHub profiles
+>>>>>>> 0a985e586469bacfb6e5d6ee3b6e5fdd29040d2d
