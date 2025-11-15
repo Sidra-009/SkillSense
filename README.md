@@ -1,4 +1,4 @@
-# 🌟 SkillSense — Unlock Your Hidden Potential
+# 🌟 SkillSense  Unlock Your Hidden Potential
 
 ### 🧠 Built for the **Hack-Nation Global AI Hackathon 2025**
 
@@ -115,10 +115,12 @@ Licensed under the MIT License — free to use, modify, and distribute.
 🌈 Spread the Word
 
 If this project inspired you,
-⭐ Give the repo a star — it keeps the motivation alive!
+⭐ Give the repo a star 
+it keeps the motivation alive!
 
 “Every skill has a story.
 SkillSense tells it intelligently. ✨
-— Built with 💖, AI, and endless curiosity.
+— Built with 💖, and endless curiosity.
+
 
 
